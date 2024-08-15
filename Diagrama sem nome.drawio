@@ -40,8 +40,10 @@
         <mxCell id="mmO-NFrml43Su9Zv2euZ-27" value="Entrega Carro" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="170" y="168" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mmO-NFrml43Su9Zv2euZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmO-NFrml43Su9Zv2euZ-39" target="mmO-NFrml43Su9Zv2euZ-41">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mmO-NFrml43Su9Zv2euZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmO-NFrml43Su9Zv2euZ-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mmO-NFrml43Su9Zv2euZ-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mmO-NFrml43Su9Zv2euZ-39" target="mmO-NFrml43Su9Zv2euZ-47">
           <mxGeometry relative="1" as="geometry" />
@@ -59,20 +61,6 @@
         </mxCell>
         <mxCell id="mmO-NFrml43Su9Zv2euZ-47" value="Retirar veiculo" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="827" y="168" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mmO-NFrml43Su9Zv2euZ-41" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="610" y="270" width="160" height="119" as="geometry">
-            <mxRectangle x="610" y="285" width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mmO-NFrml43Su9Zv2euZ-42" value="Placa" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="mmO-NFrml43Su9Zv2euZ-41">
-          <mxGeometry y="25" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mmO-NFrml43Su9Zv2euZ-43" value="Marca&amp;nbsp;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="mmO-NFrml43Su9Zv2euZ-41">
-          <mxGeometry y="55" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mmO-NFrml43Su9Zv2euZ-44" value="Cor do Veiculo" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="mmO-NFrml43Su9Zv2euZ-41">
-          <mxGeometry y="85" width="160" height="34" as="geometry" />
         </mxCell>
         <mxCell id="mmO-NFrml43Su9Zv2euZ-70" value="Hora da saída e valor estacionamento" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1167" y="173" width="110" height="50" as="geometry" />
@@ -115,6 +103,12 @@
         </mxCell>
         <mxCell id="mmO-NFrml43Su9Zv2euZ-99" value="Gera" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="470" y="168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmO-NFrml43Su9Zv2euZ-117" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="263.5" width="230" height="165.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mmO-NFrml43Su9Zv2euZ-118" value="Placa&lt;div&gt;Marca&amp;nbsp;&lt;/div&gt;&lt;div&gt;Cor do Carro&lt;/div&gt;&lt;div&gt;Marca&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Hora de Entrada&amp;nbsp;&lt;/div&gt;&lt;div&gt;Número da Vaga&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="mmO-NFrml43Su9Zv2euZ-117">
+          <mxGeometry y="50" width="230" height="115.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
