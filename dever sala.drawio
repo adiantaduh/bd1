@@ -30,6 +30,9 @@
         <mxCell id="DcofqpwaH22fSSjAT7w--58" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="DcofqpwaH22fSSjAT7w--56" target="DcofqpwaH22fSSjAT7w--55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DcofqpwaH22fSSjAT7w--92" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="DcofqpwaH22fSSjAT7w--56" target="DcofqpwaH22fSSjAT7w--91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DcofqpwaH22fSSjAT7w--56" value="Reservam" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
         </mxCell>
@@ -73,6 +76,18 @@
         </mxCell>
         <mxCell id="DcofqpwaH22fSSjAT7w--89" value="Data de entrada" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="75" y="500" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DcofqpwaH22fSSjAT7w--91" value="Serviço" style="whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DcofqpwaH22fSSjAT7w--93" value="Requisita" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="210" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DcofqpwaH22fSSjAT7w--94" value="n" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DcofqpwaH22fSSjAT7w--95" value="n" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="490" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
